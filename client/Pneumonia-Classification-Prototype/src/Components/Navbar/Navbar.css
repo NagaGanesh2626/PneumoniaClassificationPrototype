@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+}
+
+.nav-bar {
+  background: linear-gradient(to right, #00d4d3, #3789ff, #7a44ff);
+  height: 7.75vh;
+  width: 100%;
+  padding: 0;
+  color: #e3ff00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 4vh;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.pages {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 65vh;
+  font-size: 2vh;
+}
+
+.pages div {
+  transition: 0.2s ease;
+}
+
+.pages div:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.pages a,
+.logo a {
+  text-decoration: none;
+  color: #e3ff00;
+}
