@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  background: linear-gradient(to left, #22fd59, #159c09, #0b5e00);
+}
+
+header {
+  text-align: center;
+  margin-top: 3dvh;
+}
+
+.welcome {
+  padding: 0 15dvh 0 15dvh;
+  text-align: justify;
+}
+
+.checking-card {
+  padding: 2dvh 4dvh 2dvh 4dvh;
+  margin: 5dvh 15dvh 0 15dvh;
+  height: 50dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 26px;
+  background: linear-gradient(45deg, #22fd59, #159c09);
+  transition: all 0.3s ease-in-out;
+}
+.checking-card:hover {
+  border-radius: 26px;
+  background: linear-gradient(45deg, #22fd59, #159c09);
+  box-shadow: 3px -3px 10px #083e04, -3px 3px 10px #22fa0e;
+}
+
+h2 {
+  text-align: center;
+}
+
+.checking-form {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.checking-form label {
+  height: 5dvh;
+}
+.checking-form input:focus {
+  background-color: #39ff64;
+  transform: scale(1.05);
+  box-shadow: 3px -3px 10px #083e04, -3px 3px 10px #22fa0e;
+}
+.checking-form input::placeholder {
+  text-align: center;
+}
+.checking-form input {
+  text-align: center;
+  height: 5dvh;
+  padding: 1dvh;
+  border-radius: 25px;
+  background-color: #39ff64;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+}
+
+.checking-card-content {
+  margin-top: 2dvh;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-reference {
+  height: 15dvh;
+  width: 15dvh;
+}

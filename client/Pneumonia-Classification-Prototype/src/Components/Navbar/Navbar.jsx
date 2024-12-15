@@ -15,7 +15,6 @@ function Navbar() {
           <div className="about">
             <Link to="/about">About</Link>
           </div>
-          <div className="textor">Check Here</div>
           <div className="contact">Contact Us</div>
         </div>
       </nav>

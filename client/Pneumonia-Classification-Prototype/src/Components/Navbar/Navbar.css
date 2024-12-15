@@ -3,7 +3,7 @@
 }
 
 .nav-bar {
-  background: linear-gradient(to right, #00d4d3, #3789ff, #7a44ff);
+  background: linear-gradient(to left, #22fd59, #159c09, #0b5e00);
   height: 7.75vh;
   width: 100%;
   padding: 0;
@@ -30,7 +30,7 @@
 }
 
 .pages div {
-  transition: 0.2s ease;
+  transition: 0.4s ease;
 }
 
 .pages div:hover {
@@ -41,5 +41,5 @@
 .pages a,
 .logo a {
   text-decoration: none;
-  color: #e3ff00;
+  color: #e1ff00;
 }
